@@ -2,7 +2,7 @@
 ODE - First Order Euler Method class with Plotting functions
 
 ## Sample Usage
-`
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -15,4 +15,4 @@ ep = EulerPlotter([f,g],[x0,p0],0.01,30)
 ep.getResultArray()
 ep.twoDPlot(plt,[0,1],[12,4],"1) x over t")
 plt.show()
-`
+```
